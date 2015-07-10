@@ -13,6 +13,8 @@
 		700865C41B4FE98400611A95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700865C31B4FE98400611A95 /* Images.xcassets */; };
 		700865C71B4FE98400611A95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700865C51B4FE98400611A95 /* LaunchScreen.xib */; };
 		700865D31B4FE98400611A95 /* RandomLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700865D21B4FE98400611A95 /* RandomLearnTests.swift */; };
+		700865DD1B4FEBF600611A95 /* ViewAdressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700865DC1B4FEBF600611A95 /* ViewAdressStore.swift */; };
+		700865DF1B4FEC3C00611A95 /* MITOpenCoursewareViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700865DE1B4FEC3C00611A95 /* MITOpenCoursewareViewStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		700865CC1B4FE98400611A95 /* RandomLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		700865D11B4FE98400611A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		700865D21B4FE98400611A95 /* RandomLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomLearnTests.swift; sourceTree = "<group>"; };
+		700865DC1B4FEBF600611A95 /* ViewAdressStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAdressStore.swift; sourceTree = "<group>"; };
+		700865DE1B4FEC3C00611A95 /* MITOpenCoursewareViewStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MITOpenCoursewareViewStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				700865BC1B4FE98400611A95 /* AppDelegate.swift */,
 				700865BE1B4FE98400611A95 /* ViewController.swift */,
+				700865DC1B4FEBF600611A95 /* ViewAdressStore.swift */,
+				700865DE1B4FEC3C00611A95 /* MITOpenCoursewareViewStore.swift */,
 				700865C01B4FE98400611A95 /* Main.storyboard */,
 				700865C31B4FE98400611A95 /* Images.xcassets */,
 				700865C51B4FE98400611A95 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				700865BF1B4FE98400611A95 /* ViewController.swift in Sources */,
 				700865BD1B4FE98400611A95 /* AppDelegate.swift in Sources */,
+				700865DF1B4FEC3C00611A95 /* MITOpenCoursewareViewStore.swift in Sources */,
+				700865DD1B4FEBF600611A95 /* ViewAdressStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
